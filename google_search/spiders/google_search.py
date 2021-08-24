@@ -4,8 +4,9 @@ from urllib.parse import urlencode
 from urllib.parse import urlparse
 import json
 from datetime import datetime
+
 # Insert Scraperapi API key here. Signup here for free trial with 5,000 requests: https://www.scraperapi.com/signup
-API_KEY = '360250b3528c3a7943409c1fbfb28184'
+API_KEY = 'YOUR_API_KEY'
 
 
 def get_url(url):
