@@ -19,10 +19,22 @@ This spider can be easily customised for your particular search requirements. In
 
 # How To Use
 
-Make sure Scrapy is installed:
+Install pipenv for virtual environment
 
 ```
-pip install scrapy
+pip install pipenv
+```
+
+Launching subshell in virtual environment
+
+```
+pipenv shell
+```
+
+Install packages in virtual environment
+
+```
+pipenv install
 ```
 
 Set the keywords you want to search in Google.
